@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func theButton(_ sender: Any) {
  //       theLabel.text = "Hello There!!!"
         tapCount = tapCount + 1
-        if tapCount <= 5 {
+        if tapCount <= 6 {
             print("Push Me Button Tapped")
         }
         else{
