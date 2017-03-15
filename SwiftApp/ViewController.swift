@@ -34,7 +34,9 @@ class ViewController: UIViewController {
         
         //        theLabel.text = String(Int(text1.text!)! + Int(text2.text!)!)
         // Or
-        var addition:Bool = true
+        
+/*         var addition = true
+
         
         if Int(text1.text!)! > 8
         {
@@ -44,6 +46,9 @@ class ViewController: UIViewController {
         {
             addition = true
         }
+*/
+// Or
+        var addition = Int(text1.text!)! > 8
         
         if addition
         {

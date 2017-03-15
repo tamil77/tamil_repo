@@ -28,15 +28,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJA-od-1bJ">
-                                <rect key="frame" x="148" y="119" width="60" height="30"/>
-                                <state key="normal" title="Push Me"/>
+                                <rect key="frame" x="145" y="119" width="67" height="30"/>
+                                <state key="normal" title="PUSH ME"/>
                                 <connections>
                                     <action selector="theButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQL-sY-U1H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOY-uJ-Idw">
-                                <rect key="frame" x="148" y="157" width="72" height="30"/>
-                                <state key="normal" title="Reset Text"/>
+                                <rect key="frame" x="141" y="157" width="87" height="30"/>
+                                <state key="normal" title="RESET TEXT"/>
                                 <connections>
                                     <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rbh-q4-QW1"/>
                                 </connections>
@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66.400000000000006" y="147.97601199400302"/>
+            <point key="canvasLocation" x="39" y="105"/>
         </scene>
     </scenes>
 </document>
