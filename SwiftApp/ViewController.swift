@@ -31,6 +31,11 @@ class ViewController: UIViewController {
  */
 //        print(tapCount)
 //        print(text1)
+        
+//        theLabel.text = String(Int(text1.text!)! + Int(text2.text!)!)
+// Or
+        theLabel.text = "Answer..\(Int(text1.text!)! + Int(text2.text!)!)"
+        
         print(text1.text!)
         print(text2.text!)
     }
